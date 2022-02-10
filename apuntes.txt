@@ -1,0 +1,17 @@
+Links optimos para extracción de datos:
+* https://www.comeperuano.pe/ (Ingredientes en listas, no hay necesidad de hacer preprocesamiento)
+* https://www.recetasgratis.net/recetas-peruanas (Los ingredientes tienen una etiqueta que facilita la extracción)
+* https://perudelicias.com (tiene los alimentos clasificados por categorías)
+
+#xpaths
+1) Come Peruano:
+    Links: '//*[@id="pt-cv-view-9911fa994s"]/div/div/div/h3/a/@href'
+    Nombre Comida: '//*/div/header/div[3]/h1/text()'
+    Ingredients: '//*/div/div/ul[1]/li'
+    Imagen: '//*/div/header/div[1]/img/@src'
+    Valor nutricional:  '//*/div/div/p[4]/strong'
+
+2) Recetas Gratis: 
+    Links: 
+
+3) Perú Delicias:
